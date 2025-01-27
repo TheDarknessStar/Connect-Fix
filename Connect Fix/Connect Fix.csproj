@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Connect_Fix</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>Connect Fix.ico</ApplicationIcon>
+    <NuGetAuditLevel>high</NuGetAuditLevel>
+    <PackageIcon></PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Connect Fix.ico" />
+  </ItemGroup>
+
+</Project>
