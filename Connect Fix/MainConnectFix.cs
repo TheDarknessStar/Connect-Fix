@@ -10,7 +10,7 @@ class Program
 
     static void Main(string[] args)
     {
-        Console.Title = "Connect Fix v1.0.0";
+        Console.Title = "Connect Fix v1.0.2";
         DisplayMenu();
     }
 
@@ -23,9 +23,8 @@ class Program
         else
         {
             Thread.Sleep(2000);
+            Console.Clear();
         }
-
-        Console.Clear();
         Console.WriteLine("   ____                            _   _____ _      \r\n  / ___|___  _ __  _ __   ___  ___| |_|  ___(_)_  __\r\n | |   / _ \\| '_ \\| '_ \\ / _ \\/ __| __| |_  | \\ \\/ /\r\n | |__| (_) | | | | | | |  __/ (__| |_|  _| | |>  < \r\n  \\____\\___/|_| |_|_| |_|\\___|\\___|\\__|_|   |_/_/\\_\\\r\n                                                    ");
         Console.WriteLine("\n欢迎使用泰坦陨落二服务器连接修复工具\nbilibili: https://space.bilibili.com/3493268113328579");
 
@@ -48,6 +47,7 @@ class Program
                 default:
                     Console.Clear();
                     Console.WriteLine("无效的选择，请重新输入");
+                    DisplayMenu();
                     break;
             }
         }
